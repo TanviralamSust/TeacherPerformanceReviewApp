@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nihal.reviewerandroidportion.StudentProfile.CourseRating">
+   <ScrollView
+       android:layout_width="368dp"
+       android:layout_height="wrap_content"
+       tools:layout_editor_absoluteY="16dp"
+       tools:layout_editor_absoluteX="8dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Answer the following question to post your review :"
+               android:textColor="#000000"
+               android:textSize="16dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="1.How was the overall course?"
+               android:textColor="#000000"
+               android:layout_margin="16dp"
+               android:textSize="20dp"/>
+           <RadioGroup
+               android:id="@+id/radio_q1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <RadioButton
+               android:id="@+id/op1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Option1."
+               />
+
+               <RadioButton
+                   android:id="@+id/op2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Option2."
+                   />
+
+               <RadioButton
+                   android:id="@+id/op3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Option3."
+                   />
+           </RadioGroup>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bad"
+               />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Avarage"
+               />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Good"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Very Good"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="1.Is that you get what you expected from this course?"
+               android:textColor="#000000"
+               android:layout_margin="16dp"
+               android:textSize="20dp"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="No"
+               />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="A little"
+               />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Yes"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="MOre Than Expectation"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="1.Is there anything to change or improve?"
+               android:textColor="#000000"
+               android:layout_margin="16dp"
+               android:textSize="20dp"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Nothing, every thing is good"
+               />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" quite satisfactory"
+               />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Should change something"/>
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Very Good"/>
+
+           <Button
+               android:id="@+id/submit_from"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Submit From"
+               android:onClick="submissionFrom"/>
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

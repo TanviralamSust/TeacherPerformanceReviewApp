@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teacher_new_course_key"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.nihal.reviewerandroidportion.TeacherProfile.TeacherNewCourseKey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter your unique course key"
+        android:textSize="26dp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/unique_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="unique key"
+        android:textSize="20dp"/>
+
+    <Button
+        android:onClick="setcourseKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" set key"/>
+
+</LinearLayout>

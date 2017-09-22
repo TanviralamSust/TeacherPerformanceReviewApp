@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_course_new_rating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nihal.reviewerandroidportion.StudentProfile.CourseNewRating">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Answer the following question to post your review :"
+        android:textColor="#000000"
+        android:textSize="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.How was the overall course?"
+        android:textColor="#000000"
+        android:layout_margin="16dp"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_op1"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_op11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Bad"/>
+        <RadioButton
+            android:id="@+id/radio_op12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="avarage"/>
+        <RadioButton
+            android:id="@+id/radio_op13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Good"/>
+        <RadioButton
+            android:id="@+id/radio_op14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Very Good"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Is that you get that you expected from the course?"
+        android:textColor="#000000"
+        android:layout_margin="16dp"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_op2"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_op21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Bad"/>
+        <RadioButton
+            android:id="@+id/radio_op22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="avarage"/>
+        <RadioButton
+            android:id="@+id/radio_op23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Good"/>
+        <RadioButton
+            android:id="@+id/radio_op24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Very Good"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.how you will rate the course?"
+        android:textColor="#000000"
+        android:layout_margin="16dp"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_op3"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_op31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Bad"/>
+        <RadioButton
+            android:id="@+id/radio_op32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="avarage"/>
+        <RadioButton
+            android:id="@+id/radio_op33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Good"/>
+        <RadioButton
+            android:id="@+id/radio_op34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Very Good"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="methodClick"
+        android:text="onNewMethod"/>
+    <Button
+        android:id="@+id/submission_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit New"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit previous"
+        android:onClick="submissionfrom"/>
+
+</LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nihal.reviewerandroidportion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChooseUser.RegisterTeacherOrStudent" />
+        <activity android:name=".ChooseUser.LoginTeacherOrStudent" />
+        <activity
+            android:name=".StudentProfile.StudentRegister"
+            android:label="@string/title_activity_student_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentProfile.StudentLogin"
+            android:label="@string/title_activity_student_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeacherProfile.TeacherRegister"
+            android:label="@string/title_activity_teacher_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeacherProfile.TeacherLogin"
+            android:label="@string/title_activity_teacher_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentProfile.StudentHomeScreen"
+            android:label="@string/title_activity_student_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TeacherProfile.TeacherHomeScreen" />
+        <activity android:name=".TeacherProfile.SemisterShow" />
+        <activity android:name=".TeacherProfile.SemisterList" />
+        <activity android:name=".TeacherProfile.TeacherCourseKey" />
+        <activity android:name=".StudentProfile.StudentNewHomeScreen" />
+        <activity android:name=".StudentProfile.StudentSemisterShow" />
+        <activity android:name=".StudentProfile.StuidentSemisterList" />
+        <activity android:name=".StudentProfile.StudentPutKey" />
+        <activity android:name=".StudentProfile.ReviewFrom" />
+        <activity android:name=".StudentProfile.SubjectSelectionDemo" />
+        <activity android:name=".StudentProfile.SelectionCourseTrail" />
+        <activity android:name=".StudentProfile.CourseRating" />
+        <activity android:name=".StudentProfile.SubmitingCourseKey" />
+        <activity android:name=".StudentProfile.CourseNewRating" />
+        <activity android:name=".TeacherProfile.SemisterCourse" />
+        <activity android:name=".TeacherProfile.TeacherNewCourseKey" />
+        <activity android:name=".StudentProfile.StudentSemisterCourse" />
+        <activity android:name=".StudentProfile.StudentNewCourseKey" />
+        <activity android:name=".StudentProfile.StudentNewLogin"></activity>
+    </application>
+
+</manifest>

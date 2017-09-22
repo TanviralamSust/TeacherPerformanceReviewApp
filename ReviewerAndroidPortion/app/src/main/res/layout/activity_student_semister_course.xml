@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_semister_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nihal.reviewerandroidportion.TeacherProfile.SemisterCourse">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="database"
+        android:layout_margin="20dp"
+        android:text="Database and System Management"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="operating"
+        android:layout_margin="20dp"
+        android:text="Operating System"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="micro"
+        android:layout_margin="20dp"
+        android:text="MicroProcessor"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="datacom"
+        android:layout_margin="20dp"
+        android:text="Data Com"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mis"
+        android:layout_margin="20dp"
+        android:text="MIS"/>
+
+</LinearLayout>
+

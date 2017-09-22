@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_register_teacher_or_student"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#778bc34a"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:text="Choose your field"
+        android:textSize="26dp"
+        />
+    <Button
+        android:id="@+id/teacher_registraion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Registration"
+        android:layout_margin="28dp" />
+    <Button
+        android:id="@+id/student_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:layout_margin="28dp"/>
+
+</LinearLayout>
